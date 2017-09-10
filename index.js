@@ -1,9 +1,11 @@
 'use strict'
 const yaml = require('js-yaml')
+const { flatten } = require('flat')
 
 module.exports = {
   process(src) {
     const json = yaml.safeLoad(src, { json: true })
-    return `module.exports = ${JSON.stringify(json)};`
+    const flattenJson = flatten(json)
+    return `module.exports = ${JSON.stringify(flattenJson)};`
   },
 }
