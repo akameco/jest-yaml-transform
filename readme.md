@@ -1,5 +1,7 @@
 # jest-yaml-transform [![Build Status](https://travis-ci.org/akameco/jest-yaml-transform.svg?branch=master)](https://travis-ci.org/akameco/jest-yaml-transform)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/jest-yaml-transform.svg)](https://greenkeeper.io/)
+
 > transform yaml to object
 
 
